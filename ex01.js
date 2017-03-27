@@ -23,4 +23,9 @@ function returnParameter(nb) {
 }
 
 //  écrire votre code sous ce commentaire
+  nb = 5
+  function returnParameter(nb) {
+    return nb;
+}
+    console.log(returnParameter(nb));
 
