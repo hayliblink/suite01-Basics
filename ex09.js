@@ -22,3 +22,28 @@
 // boostedEvenAddition([1, 3, 4, 5, 4, 6, 9, 8, 11, 10, 11, 12]);
 
 //  écrire votre code sous ce commentaire
+
+function boosterEvenAddition(nb) {
+   var resultat = 0;
+    for (var i = 0; i < nb.length; i++)
+     {
+        if(isEven(nb[i]) == 1)
+        { 
+            resultat = resultat + nb[i];
+        
+        }
+    }
+    return  resultat;
+}
+
+function isEven(nb){
+    if (nb % 2 === 0)
+   { 
+       return  1 ;
+   }
+
+    else
+    {
+        return  0 ;
+    }
+}

@@ -18,3 +18,22 @@
 
 */
 
+function getPerson(firstName, lastName, age){
+    var obj = new Object();
+    obj.fullName = firstName + " " + lastName;
+    obj.ages = age;
+    if (isAdult(obj.ages)== "majeur"){
+        console.log("majeur");
+    }
+
+    return obj;
+
+
+
+}
+
+function isAdult(ages){
+    if(age >= 18){
+        return "majeur"
+    }
+}
