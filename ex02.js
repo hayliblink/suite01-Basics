@@ -26,4 +26,3 @@ function retParam(nb) {
 return nb = 5;
 }
 
-console.log(retParam(nb));

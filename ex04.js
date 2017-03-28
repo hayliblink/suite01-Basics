@@ -37,5 +37,3 @@ function isEven(nb){
     {return  0;
     }
 }
-
-console.log(isEven(nb));

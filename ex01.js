@@ -25,5 +25,5 @@
   function returnParameter(nb) {
     return nb;
 }
-    console.log(returnParameter(nb));
+
 

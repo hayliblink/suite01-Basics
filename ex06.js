@@ -68,5 +68,3 @@ else ( nb >= 124 && nb < 1 )
 
 }
 
-console.log(getHumanTypeByAge(nb));
-

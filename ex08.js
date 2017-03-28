@@ -31,3 +31,26 @@
 
 //  écrire votre code sous ce commentaire
 
+
+function isAllEven(nb) {
+    for (var i = 0; i < nb.length; i++)
+     {
+        if(isEven(nb[i]) == 0)
+        {
+            return 0
+        }
+    }
+    return  1;
+}
+
+function isEven(nb){
+    if (nb % 2 === 0)
+   { 
+       return  1 ;
+   }
+
+    else
+    {
+        return  0 ;
+    }
+}

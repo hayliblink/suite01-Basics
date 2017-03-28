@@ -34,5 +34,3 @@ function isEvenConcat(nb){
     {return  nb + " est impair" ;
     }
 }
-
-console.log(isEvenConcat(nb));
