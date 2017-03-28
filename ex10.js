@@ -33,7 +33,7 @@ function getPerson(firstName, lastName, age){
 }
 
 function isAdult(ages){
-    if(age >= 18){
+    if(ages >= 18){
         return "majeur"
     }
 }
